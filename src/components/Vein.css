@@ -1,0 +1,24 @@
+.vein >h4 {
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    color: var(--chat-area-color);
+}
+/* .vein:hover {
+    background-color: var(--bg-ternary);
+    color: var(--text-primary);
+    cursor: pointer;
+} */
+.vein >h4:hover {
+    background-color: var(--bg-ternary);
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+.hash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+

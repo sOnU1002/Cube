@@ -1,0 +1,73 @@
+:root {
+    --text-primary: #000000;
+    --bg-primary: #000000;
+    --bg-secondary: rgb(16, 16, 16);
+    --bg-ternary: #00b8ff;
+    --chat-area-color:#FFFFFF;
+    --border-color: #009bd6; 
+}
+
+.depbar {
+    height: 100vh;
+    width: 45px;
+    margin: none;
+    padding: 0;
+    position: fixed;
+    background-color: var(--bg-primary);
+}
+
+.logo {
+    display: fixed;
+    height: 10px;
+    padding: 1px;
+    margin:2px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.dep-item {
+    list-style: none;
+    padding: 0px;
+    padding-top: 18px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-primary);
+}
+
+.department svg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px;
+    padding: 7px;
+    height: 35px;
+    cursor: pointer;
+    color: var(--bg-ternary);
+}
+.department svg:hover{
+    color: lawngreen;
+}
+
+.logo > img  {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 46px;
+    width: 45px;
+}
+
+
+
+li {
+    margin-bottom: 25px;
+}
+li:last-child {
+    margin: 10;
+}
+li:hover {
+    cursor: pointer;
+}
+

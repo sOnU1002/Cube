@@ -1,0 +1,78 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex:0.15;
+    height: 100vh;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    padding-left: 0px;
+    border-left: 46px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
+.sidebar-stud {
+    display: flex;
+    flex-direction: column;
+    flex:0.15;
+    height: 100vh;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    padding-left: 0px;
+    /* border-left: 46px solid var(--border-color); */
+    border-right: 1px solid var(--border-color);
+}
+
+.sidebar-veins {
+    flex:1;
+}
+
+.add-vein {
+    cursor: pointer;
+}
+.add-vein:hover {
+    background-color: var(--bg-ternary);
+    color: var(--text-primary);
+    border-radius: 5px;
+}
+
+.vein-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--bg-primary);
+    padding-bottom: 9px;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--chat-area-color);
+}
+
+.sidebar-year, .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    /* background-color: var(--bg-secondary); */
+    border-top: 1px solid var(--bg-ternary);
+}
+
+.year-input {
+    flex:1;
+    padding: 2px;
+}
+
+.profile-info{
+    flex:1;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    font-size: 12px;
+    font-style:italic;
+}
+
+.exit {
+    padding-top: 3px;
+    color:red;
+}
+.exit:hover {
+    cursor:pointer;
+    transform: rotate(180deg);
+}

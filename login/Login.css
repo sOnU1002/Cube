@@ -1,0 +1,140 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #00070b;
+}
+
+.login > button {
+    position: absolute;
+    bottom:145px;
+    width: 300px;
+    background-color: #38B6FF;
+    color: black;
+    font-weight: 800;
+}
+
+.login > button:hover {
+    background-color: var(--chat-area-color);
+    color: #38B6FF;
+}
+
+.login > div >img {
+    position: absolute;
+    bottom:335px;
+    left: 545px;
+    object-fit: contain;
+    height: 350px;
+    padding: 0;
+    margin: none;
+}
+
+.appname {
+    color: #38B6FF;
+    position: absolute;
+    bottom:225px;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+
+
+/* new login */
+
+.grid-container-login {
+    background-color: black;
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    color: var(--bg-ternary);
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-student {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    /* background-color: red; */
+    background-color: black;
+    /* background-color: #38B6FF; */
+}
+.grid-teacher {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    /* background-color: blue; */
+    background-color: var(--bg-ternary);
+    /* background-color: black; */
+}
+
+.details-logo {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.details-logo > p{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    left: 9px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: var(--bg-ternary);
+    font-size: 20px;
+    font-weight: 900;
+}
+.details-logo >img {
+   height: 40px;
+   width: 44px;
+}
+
+.grid-student > p {
+    color: var(--bg-ternary);
+    /* color: black; */
+    font-size: 50px;
+    font-weight: 700;
+}
+.grid-teacher > p {
+    /* color: var(--bg-ternary); */
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.grid-student > button {
+    width: 300px;
+    background-color: #38B6FF;
+    color: black;
+    font-weight: 800;
+    transition: 1s ease-in-out;
+}
+
+.grid-student > button:hover {
+    background-color: #38B6FF;
+    color: black;
+    width: 100%;
+}
+.grid-teacher > button {
+    width: 300px;
+    background-color: black;
+    color: var(--bg-ternary);
+    font-weight: 800;
+    transition: 1s ease-in-out;
+}
+
+.grid-teacher > button:hover {
+    background-color: black;
+    color: var(--bg-ternary);
+    width: 100%;
+}
+
+.select-dep  {
+    position: absolute;
+    top: 180px;
+    list-style: none;
+}
+
